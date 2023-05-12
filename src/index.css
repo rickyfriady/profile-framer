@@ -1,8 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+:root {
+  --primary: #bae8e8;
+  --secondary: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --primary: #f1e8e6;
-  --secondary: #543c52;
+@layer components {
+  .textFilled,
+  .textOutline {
+    @apply absolute uppercase italic pointer-events-none text-blue-300 z-[1] whitespace-nowrap text-[12rem] transition-all duration-[2000ms] ease-out font-semibold;
+  }
+
+  .textOutline {
+    @apply z-[3] text-transparent stroke-black stroke-2;
+  }
 }

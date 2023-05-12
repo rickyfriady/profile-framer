@@ -5,7 +5,10 @@ export default {
     extend: {
       colors: {
         primary: 'var(--primary)',
-        secondary: 'var(--secondary)'
+        secondary: 'var(--secondary)',
+      },
+      fontFamily: {
+        Poppins: ['Poppins'],
       },
     },
   },
