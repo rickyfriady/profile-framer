@@ -21,7 +21,7 @@ const LoaderHome = () => {
         },
       }}
       exit={{ y: window.innerWidth }}
-      className="bg-primary fixed w-full h-screen"
+      className="bg-primary fixed w-full h-screen z-[10]"
     >
       <div className="w-full h-screen flex flex-col justify-center items-center leading-[0px] text-3xl">
         {DataSalam.map((data, index) => (

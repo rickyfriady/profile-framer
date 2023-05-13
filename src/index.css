@@ -20,6 +20,8 @@ html {
   }
 
   .textOutline {
-    @apply z-[3] text-transparent stroke-black stroke-2;
+    @apply z-[3];
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
   }
 }
