@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: 'var(--primary)',
-        secondary: 'var(--secondary)',
+        primary: 'var(--primary-color)',
+        secondary: 'var(--secondary-color)',
       },
       fontFamily: {
         Poppins: ['Poppins'],

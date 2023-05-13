@@ -12,6 +12,7 @@ const DelayLoader = ({ children, delay }) => {
           display: 'none',
         },
       }}
+      className="text-secondary leading-[0px] text-5xl"
     >
       {children}
     </motion.span>

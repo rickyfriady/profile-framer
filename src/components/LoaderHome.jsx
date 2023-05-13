@@ -21,9 +21,9 @@ const LoaderHome = () => {
         },
       }}
       exit={{ y: window.innerWidth }}
-      className="bg-primary fixed w-full h-screen z-[10]"
+      className="bg-primary fixed w-full h-screen z-[10] top-0"
     >
-      <div className="w-full h-screen flex flex-col justify-center items-center leading-[0px] text-3xl">
+      <div className="w-full h-screen flex flex-col justify-center items-center">
         {DataSalam.map((data, index) => (
           <DelayLoader key={index} delay={data.delay}>
             {data.nama}
